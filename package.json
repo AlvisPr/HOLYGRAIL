@@ -1,0 +1,19 @@
+{
+  "name": "holygrail",
+  "version": "1.0.0",
+  "description": "node app for holy grail ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "alvisprieditis.dev@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
